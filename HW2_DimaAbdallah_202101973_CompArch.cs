@@ -30,7 +30,7 @@ class Program{
                 {
                     if(serialPort.IsOpen)
                     {
-                        serialPort.Cole();
+                        serialPort.Close();
                         Console.WriteLine("The serial port is now closed, and serial communication is ended.")
 
                     }
