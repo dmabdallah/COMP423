@@ -10,7 +10,7 @@ class Program{
             try
             {
                 serialPort.Open();
-                Console.WriteLine("The required cerial port is opened and is ready for communication.")
+                Console.WriteLine("The required serial port is opened and is ready for communication.")
 
                 Thread.Sleep(2000);
 
