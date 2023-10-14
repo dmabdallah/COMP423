@@ -1,0 +1,9 @@
+import json
+import requests
+
+with open('test,json','r') as file:
+    data=json.load(file)
+print(data)
+
+name=data.get["name"]
+firstInterest=data.get["interests"]
